@@ -1,3 +1,6 @@
+# Copyright (c) 2023-2026 Cristian Camargo Filho
+# SPDX-License-Identifier: MPL-2.0
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -123,4 +126,3 @@ if __name__ == '__main__':
 
         image_path = "Tests/Test3.jpg"
         print(classify_image(image_path))
-

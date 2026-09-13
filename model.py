@@ -1,3 +1,6 @@
+# Copyright (c) 2023-2026 Cristian Camargo Filho
+# SPDX-License-Identifier: MPL-2.0
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -114,4 +117,3 @@ class RCNN_MultiLabelClassifier(nn.Module):
         x = x.view(x.size(0), -1)  # Flatten the tensor
         x = self.classifier(x)
         return x
-

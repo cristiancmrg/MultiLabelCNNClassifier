@@ -50,3 +50,13 @@ To view the neural network filters, execute the `extract-filters` script located
 
 ## Customization and Exploration
 This framework is designed to be both robust and flexible. If you're experienced, you're encouraged to modify and adapt it to your needs. And even if you're a beginner, don't hesitate to experiment with different settings and values. Through exploration, you'll undoubtedly gain valuable insights and knowledge. Happy coding, and may the force be with you!
+
+## License
+
+Repository revisions published after commit
+`a01eacb08fbcc5862d89578e825d050bcfd28154` are licensed under the
+[Mozilla Public License Version 2.0](LICENSE). Historical revisions through
+that commit remain available under their original MIT terms, preserved in
+[LICENSES/MIT.txt](LICENSES/MIT.txt). See [LICENSING.md](LICENSING.md) for the
+transition boundary and the separate treatment of future datasets and trained
+model artifacts.
